@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Inicio</title>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/styles.css">
+	<link rel="shortcut icon" href="img/logo.png">
+	<link href="https://fonts.googleapis.com/css?family=Barlow|Dancing+Script&display=swap" rel="stylesheet">
+</head>
+<body>
+	<header>
+		<nav class="navbar navbar-expand-lg navbar-light">
+		  <a class="navbar-brand, titulo"  href="index.html"><img src="img/bigben.png"> Hotel Farah London</a>
+		  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+		    <span class="navbar-toggler-icon"></span>
+		  </button>
+		  <div class="collapse navbar-collapse" id="navbarNav">
+		    <ul class="navbar-nav">
+		      <li class="nav-item active">
+		        <a class="nav-link, title" href="index.html">Inicio<span class="sr-only">(current)</span></a>
+		      </li>
+		      <li class="nav-item">
+		        <a class="nav-link, title" href="recamaras.html">Recamaras</a>
+		      </li>
+		      <li class="nav-item">
+		        <a class="nav-link, title" href="contacto.html">Contacto</a>
+		      </li>
+		    </ul>
+		  </div>
+		</nav>
+	</header>
+
+	<main>
+		<div class="container">
+			<div class="row">
+				<div class="col-12 col-md-6">
+					<form id="contact">
+					  <div class="form-row">
+					    <div class="form-group col-md-12">
+					      <label for="inputEmail4">Correo</label>
+					      <input type="email" class="form-control" id="inputEmail4">
+					    </div>
+					  </div>
+					  <div class="form-group">
+					    <label for="inputAddress">Dirección</label>
+					    <input type="text" class="form-control" id="inputAddress">
+					  </div>
+					  <div class="form-row">
+					    <div class="form-group col-md-6">
+					      <label for="inputCity">Ciudad</label>
+					      <input type="text" class="form-control" id="inputCity">
+					    </div>
+					    <div class="form-group col-md-4">
+					      <label for="inputState">Estado</label>
+					      <select id="inputState" class="form-control">
+					        <option selected>Seleccionar</option>
+					        <option>...</option>
+					      </select>
+					    </div>
+					  </div>
+					  <div class="form-group">
+					      <label for="exampleFormControlTextarea1">Comentario</label>
+					      <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+					  </div>
+					  <button type="submit" class="btn">Enviar</button>
+					</form>
+				</div>
+				<div class="col-12 col-md-6">
+					<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2482.8938117184343!2d-0.10643608479936101!3d51.51516411795727!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48761ba8fc26385f%3A0x30d01846719e0e5!2sHotel!5e0!3m2!1ses-419!2smx!4v1580626383909!5m2!1ses-419!2smx" width="400" height="300" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+				</div>
+			</div>
+		</div>
+
+		<div class="container">
+			<div class="row">
+				<div class="col-12 col-md-6">
+					<blockquote class="twitter-tweet" data-theme="dark"><p lang="en" dir="ltr">Checking into our Apex Temple Court Hotel today? One lucky guest is going to open their door to a special <a href="https://twitter.com/hashtag/ApexAdvent?src=hash&amp;ref_src=twsrc%5Etfw">#ApexAdvent</a> Christmas gift today! Could it be you? 💭🎁 <a href="https://t.co/mQzx1qGFl6">pic.twitter.com/mQzx1qGFl6</a></p>&mdash; Apex Hotels (@ApexHotels) <a href="https://twitter.com/ApexHotels/status/1205094980005646338?ref_src=twsrc%5Etfw">December 12, 2019</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+				</div>
+				<div class="col-12 col-md-6">
+					<div class="fb-post" data-href="https://www.facebook.com/apexhotels/photos/a.412169427744/10157599928037745/?type=3&amp;theater" data-width="400" data-show-text="true"><blockquote cite="https://developers.facebook.com/apexhotels/posts/10157599928037745:0" class="fb-xfbml-parse-ignore"><p>Our Apex City of London Hotel is decked to the nines for the festive season and if you&#039;re checking in today, you could...</p>Publicado por <a href="https://www.facebook.com/apexhotels/">Apex Hotels</a> en&nbsp;<a href="https://developers.facebook.com/apexhotels/posts/10157599928037745:0">Sábado, 7 de diciembre de 2019</a></blockquote></div>
+				</div>
+			</div>
+		</div>
+	</main>
+
+	<footer>
+		<div class="redes">
+			<h2>Contactanos en nuestras redes</h2>
+			<a href="https://www.facebook.com/mildred.alvarez.5249" target="_blank"><img src="img/face.png" alt=""></a>
+			<a href="https://twitter.com/mildredjanelly" target="_blank"><img src="img/tw.png" alt=""></a>
+			<a href="https://www.instagram.com/m_mcfly1998/?hl=es-la" target="_blank"><img src="img/instag.png" alt=""></a>
+		</div>
+	</footer>
+</body>
+<!-- el jquery siempre va antes del bootstrap -->
+<script src="js/jquery.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script async defer crossorigin="anonymous" src="https://connect.facebook.net/es_LA/sdk.js#xfbml=1&version=v5.0"></script>
+</html>
